@@ -7,7 +7,7 @@
     <title>Login with google</title>
   </head>
   <body>
-        <title>Login with Google Account</title>
+        <h1>Login with Google Account</h1>
 <?php
 
 // autoload classes
