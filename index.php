@@ -7,7 +7,7 @@
     <title>Login with google</title>
   </head>
   <body>
-        <h1>Login with Google Account</h1>
+
 <?php
 
 // autoload classes
@@ -68,6 +68,7 @@ if (isset($_SESSION['access_token']) && $_SESSION['access_token']) {
      * else print the retieved data
     */
     if (isset($authUrl)) {
+        echo" <h1>Login with Google Account</h1> \n";
         echo "<a class='login' href='" . $authUrl . "'><img src='signin_button.png' height='50px'/></a>";
     } else {
         print "ID: {$id} <br>";
